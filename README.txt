@@ -4,6 +4,7 @@
     2.安装vue-cli:
         npm install -g vue-cli
     3.安装vuejs-templates(https://github.com/vuejs-templates):
+        (从这里克隆，不需要本步骤，若从新开始，则需要)
         vue init webpack vue-webpack
         cd vue-webpack
     4.安装依赖：
