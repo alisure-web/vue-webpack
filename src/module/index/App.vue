@@ -1,13 +1,14 @@
 <template>
   <div id="content">
-    <my-button theme="theme-2" text="我6去" height="32px"
+    <a href="./about.html">about</a>
+    <img src="../../assets/logo.png">
+    <my-button theme="theme-2" text="我688去" height="32px"
                width="64px" font-size="14px" @clickButton="myButtonClick"></my-button>
   </div>
 </template>
 
 <script>
-  import Hello from './components/Hello'
-  import myButton from './components/button.vue'
+  import myButton from '../../components/common/button.vue'
 
   export default {
     name: 'app',
@@ -17,7 +18,7 @@
     methods: {
       myButtonClick: function () {
         alert("点击按钮");
-        location.href = "http://www.alisure.xyz";
+        location.href = "./home.html";
       }
     }
   }
